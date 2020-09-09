@@ -1,0 +1,34 @@
+{
+  "name": "@bbergquist/angular-plugin-builder",
+  "version": "0.1.0",
+  "description": "An Angular-cli builder to produce plugins that can be dynamically loaded",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bbergquist0930/angular-plugin-builder.git"
+  },
+  "keywords": [
+    "angular",
+    "plugin",
+    "builder"
+  ],
+  "author": "bbergquist@canoga.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbergquist0930/angular-plugin-builder/issues"
+  },
+  "homepage": "https://github.com/bbergquist0930/angular-plugin-builder#readme",
+  "private": false,
+  "builders": "builders.json",
+  "dependencies": {
+    "@angular/compiler": "~9.1.0",
+    "@angular/compiler-cli": "^9.1.12",
+    "@angular-devkit/build-angular": "~0.901.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "~0.901.0"
+  }
+}
